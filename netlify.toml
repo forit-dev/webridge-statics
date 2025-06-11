@@ -4,6 +4,7 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
+# 存在しないファイルをリダイレクト用
 [[edge_functions]]
   path = "/thanksad/json/*"
   function = "thanksad-json"
