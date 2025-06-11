@@ -14,4 +14,4 @@
 [[redirects]]
   from = "/thanksad/json/*"
   to = "/thanksad/json/empty.json"
-  status = 404
+  status = 200
