@@ -4,16 +4,15 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
-# 存在しないファイルに対して、empty.json を返す
+# まず、存在するファイルがあればそれを返す（最優先）
+[[redirects]]
+  from = "/thanksad/json/:splat"
+  to = "/thanksad/json/:splat"
+  status = 200
+
+# 存在しないファイルは empty.json にリダイレクト（強制適用）
 [[redirects]]
   from = "/thanksad/json/*"
   to = "/thanksad/json/empty.json"
   status = 200
   force = true
-
-# 存在するファイルは通常通り返す
-[[redirects]]
-  from = "/thanksad/json/*"
-  to = "/thanksad/json/:splat"
-  status = 200
-  
