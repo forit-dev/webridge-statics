@@ -15,3 +15,4 @@
   from = "/thanksad/json/*"
   to = "/thanksad/json/empty.json"
   status = 200
+  force = true
