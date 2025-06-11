@@ -3,16 +3,3 @@
   for = "/thanksad/json/*.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-
-# まず、存在するファイルがあればそれを返す（最優先）
-[[redirects]]
-  from = "/thanksad/json/:splat"
-  to = "/thanksad/json/:splat"
-  status = 200
-
-# 存在しないファイルは empty.json にリダイレクト
-[[redirects]]
-  from = "/thanksad/json/*"
-  to = "/thanksad/json/empty.json"
-  status = 200
-  force = true
