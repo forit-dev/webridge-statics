@@ -1,6 +1,6 @@
 # CORS 許可
 [[headers]]
-  for = "/thanksad/safe/json/*.json"
+  for = "/thanksad/json/*.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
