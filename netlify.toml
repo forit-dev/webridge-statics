@@ -1,10 +1,10 @@
 # CORS 許可
 [[headers]]
-  for = "/thanksad/json/*.json"
+  for = "/thanksad/safe/json/*.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
 # 存在しないファイルをリダイレクト用
 [[edge_functions]]
-  path = "/thanksad/json/*"
+  path = "/thanksad/safe/json/*"
   function = "thanksad-json"

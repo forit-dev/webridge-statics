@@ -1,18 +1,17 @@
 export default async (request, context) => {
   const url = new URL(request.url);
   const path = url.pathname;
-  // 実ファイルのパスを組み立て
-  const filePath = `thanksad/json${path.replace('/thanksad/json', '')}`;
+  const filePath = `/thanksad/json${path.replace('/thanksad/safe/json', '')}`;
+  const fullUrl = `https://hilarious-belekoy-fe60c8.netlify.app${filePath}`; // ← デプロイ先の URL に合わせて調整
 
   try {
-    // ファイルの存在チェック
-    const res = await context.rewrite(`/thanksad/json${path.replace('/thanksad/json', '')}`);
+    const res = await fetch(fullUrl, { cf: { cacheEverything: false } });
     if (res.status === 200) {
-      return res;
+      return context.rewrite(filePath);
     }
   } catch (e) {
-    // 何もしない（次へ）
+    // 通信エラーなどは fallback
   }
-  // 存在しない場合はempty.jsonを返す
+
   return context.rewrite('/thanksad/json/empty.json');
 };
