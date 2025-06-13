@@ -8,3 +8,9 @@
 [[edge_functions]]
   path = "/thanksad/safe/json/*"
   function = "thanksad-json"
+
+# rootにリクエストした場合、webridgeにリダイレクト
+[[redirects]]
+  from = "/"
+  to = "https://webridge.net/"
+  status = 301
