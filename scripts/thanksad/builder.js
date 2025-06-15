@@ -13,6 +13,7 @@ async function copyJsonFiles() {
     await fs.ensureDir(destinationDir)
     await fs.copy(sourceDir, destinationDir, { overwrite: true });
   } catch (err) {
+    console.error('An error occurred while copying JSON files:', err);
     process.exit(1);
   }
 }
