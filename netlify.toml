@@ -1,3 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
 # CORS 許可
 [[headers]]
   for = "/thanksad/json/*.json"
@@ -14,3 +18,4 @@
   from = "/"
   to = "https://webridge.net/"
   status = 301
+  force = true
