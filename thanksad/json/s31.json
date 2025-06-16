@@ -7,6 +7,14 @@
     "promotionMessage": "【For STG PID31】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！",
     "leaveText": "いいえ、結構です"
   },
+  "privacyPolicy": {
+    "text": "",
+    "url": ""
+  },
+  "poweredBy": {
+    "text": "",
+    "url": ""
+  },
   "cta": {
     "text": "今すぐGoogleへGO",
     "url": "https://google.com"
