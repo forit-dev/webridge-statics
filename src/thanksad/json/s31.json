@@ -8,12 +8,12 @@
     "leaveText": "いいえ、結構です"
   },
   "privacyPolicy": {
-    "text": "Privacy Policy",
-    "url": "https://temp-staging.webridge.net/top/privacy"
+    "text": "",
+    "url": ""
   },
   "poweredBy": {
-    "text": "Webirdge",
-    "url": "https://temp-staging.webridge.net/"
+    "text": "",
+    "url": ""
   },
   "cta": {
     "text": "今すぐGoogleへGO",
