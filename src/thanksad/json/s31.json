@@ -1,10 +1,10 @@
 {
   "displayTime": 1000,
   "contents": {
-    "thxMessage": "[s31]お申し込みありがとうございます！",
+    "thxMessage": "CV FOR S31",
     "imagePath": "https://s3-ap-southeast-1.amazonaws.com/f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
-    "promotionTitle": "Mock TV STG_PID31",
-    "promotionMessage": "【For STG PID31】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！",
+    "promotionTitle": "Mock PROMOTION for S31",
+    "promotionMessage": "【WithRock TV】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！sss",
     "leaveText": "いいえ、結構です"
   },
   "privacyPolicy": {
@@ -16,7 +16,7 @@
     "url": ""
   },
   "cta": {
-    "text": "今すぐGoogleへGO",
+    "text": "今すぐ購入",
     "url": "https://google.com"
   }
 }
