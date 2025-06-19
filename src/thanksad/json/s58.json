@@ -2,7 +2,7 @@
   "displayTime": 1000,
   "contents": {
     "thxMessage": "[s58]お申し込みありがとうございます！",
-    "imagePath": "https://picsum.photos/250/250",
+    "imagePath": "https://s3-ap-southeast-1.amazonaws.com/f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
     "promotionTitle": "Mock Pro STG_PID58",
     "promotionMessage": "【For STG PID58】PID58の特別なプロモーションです。今なら入会から3ヶ月間のフリートライアル！",
     "leaveText": "いいえ、結構です"
