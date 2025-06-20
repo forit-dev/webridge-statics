@@ -2,7 +2,7 @@
   "displayTime": 1000,
   "contents": {
     "thxMessage": "[s58]お申し込みありがとうございます！",
-    "imagePath": "https://s3-ap-southeast-1.amazonaws.com/f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
+    "imagePath": "https://f.webridge.net/_banner/41b786f01068f31351148cbaf679a7e2f3bb383c.png",
     "promotionTitle": "Mock Pro STG_PID58",
     "promotionMessage": "【For STG PID58】PID58の特別なプロモーションです。今なら入会から3ヶ月間のフリートライアル！",
     "leaveText": "いいえ、結構です"
@@ -16,7 +16,7 @@
     "url": "https://temp-staging.webridge.net/"
   },
   "cta": {
-    "text": "詳細はこちら",
-    "url": "https://google.com"
+    "text": "詳細はこちら(toS33)",
+    "url": "https://dev-t.webridge.net/click/?promotion_id=33&publisher_media_id=41&manuscript_id=193"
   }
 }
