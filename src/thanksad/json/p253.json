@@ -1,0 +1,22 @@
+{
+  "displayTime": 1000,
+  "contents": {
+    "thxMessage": "[p253]お申し込みありがとうございます！",
+    "imagePath": "https://f.webridge.net/_banner/41b786f01068f31351148cbaf679a7e2f3bb383c.png",
+    "promotionTitle": "Mock Pro PROD_PID253",
+    "promotionMessage": "【For PROD PID253】PID253の特別なプロモーションです。今なら入会から3ヶ月間のフリートライアル！",
+    "leaveText": "いいえ、結構です"
+  },
+  "privacyPolicy": {
+    "text": "Privacy Policy",
+    "url": "https://webridge.net/top/privacy"
+  },
+  "poweredBy": {
+    "text": "Webridge",
+    "url": "https://webridge.net/"
+  },
+  "cta": {
+    "text": "今すぐ確認(toP219)",
+    "url": "https://t.webridge.net/click/?promotion_id=219&publisher_media_id=4&manuscript_id=7047"
+  }
+}
