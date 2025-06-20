@@ -2,9 +2,9 @@
   "displayTime": 1000,
   "contents": {
     "thxMessage": "CV FOR S31",
-    "imagePath": "https://s3-ap-southeast-1.amazonaws.com/f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
+    "imagePath": "https://f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
     "promotionTitle": "Mock PROMOTION for S31",
-    "promotionMessage": "【WithRock TV】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！sss",
+    "promotionMessage": "【FI TV】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！",
     "leaveText": "いいえ、結構です"
   },
   "privacyPolicy": {
@@ -16,7 +16,7 @@
     "url": ""
   },
   "cta": {
-    "text": "今すぐ購入",
-    "url": "https://google.com"
+    "text": "今すぐ確認(toS57)",
+    "url": "https://dev-t.webridge.net/click/?promotion_id=57&publisher_media_id=35&manuscript_id=192"
   }
 }
