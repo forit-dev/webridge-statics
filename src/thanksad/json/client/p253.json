@@ -1,0 +1,15 @@
+{
+    "contents": {
+        "promotion": {
+            "title": "Mock Pro PROD_PID253",
+            "message": "【For PROD PID253】PID253の特別なプロモーションです。今なら入会から3ヶ月間のフリートライアル！",
+            "imagePath": "https://f.webridge.net/_banner/41b786f01068f31351148cbaf679a7e2f3bb383c.png"
+        }
+    },
+    "links": {
+        "cta": {
+            "text": "今すぐ確認(toP219)"
+        },
+        "leaveText": "いいえ、結構です"
+    }
+}

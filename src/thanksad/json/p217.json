@@ -1,22 +1,33 @@
 {
-  "displayTime": 1000,
-  "contents": {
-    "thxMessage": "[p217]お申し込みありがとうございます！",
-    "imagePath": "https://f.webridge.net/_banner/41b786f01068f31351148cbaf679a7e2f3bb383c.png",
-    "promotionTitle": "Mock Pro PROD_PID217",
-    "promotionMessage": "【For PROD PID217】PID217の特別なプロモーションです。今なら入会から3ヶ月間のフリートライアル！",
-    "leaveText": "いいえ、結構です"
-  },
-  "privacyPolicy": {
-    "text": "",
-    "url": ""
-  },
-  "poweredBy": {
-    "text": "",
-    "url": ""
-  },
-  "cta": {
-    "text": "詳細はこちら(toP218)",
-    "url": "https://t.webridge.net/click/?promotion_id=218&publisher_media_id=4&manuscript_id=7046"
-  }
+    "version": "v2",
+    "introduction": {
+        "contents": {
+            "thxMessage": "[p217]お申し込みありがとうございます！"
+        },
+        "display": {
+            "displayTime": 1000,
+            "isDisplay": true
+        },
+        "links": {
+            "privacyPolicy": {
+                "text": "",
+                "url": ""
+            },
+            "poweredBy": {
+                "text": "",
+                "url": ""
+            }
+        }
+    },
+    "popup": [
+        {
+          "tracking": {
+              "ctaUrl": "https://t.webridge.net/click/?promotion_id=218&publisher_media_id=4&manuscript_id=7046"
+          },
+          "content": {
+              "jsonUrl": "https://statics.webridge.net/thanksad/json/client/p217.json"
+          }
+        }
+    ],
+    "embed": []
 }
