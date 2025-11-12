@@ -1,22 +1,33 @@
 {
-  "displayTime": 1000,
-  "contents": {
-    "thxMessage": "[s57]お申し込みありがとうございます！",
-    "imagePath": "https://f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png",
-    "promotionTitle": "Mock PROMOTION for S57",
-    "promotionMessage": "【FI TV】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！",
-    "leaveText": "いいえ、結構です"
-  },
-  "privacyPolicy": {
-    "text": "Privacy Policy",
-    "url": "https://temp-staging.webridge.net/top/privacy"
-  },
-  "poweredBy": {
-    "text": "Webridge",
-    "url": "https://temp-staging.webridge.net/"
-  },
-  "cta": {
-    "text": "今すぐ確認(toS31)",
-    "url": "https://dev-t.webridge.net/click/?promotion_id=31&publisher_media_id=4&manuscript_id=187"
-  }
+    "version": "v2",
+    "introduction": {
+        "contents": {
+            "thxMessage": "[s57]お申し込みありがとうございます！"
+        },
+        "display": {
+            "displayTime": 1000,
+            "isDisplay": true
+        },
+        "links": {
+            "privacyPolicy": {
+                "text": "Privacy Policy",
+                "url": "https://temp-staging.webridge.net/top/privacy"
+            },
+            "poweredBy": {
+                "text": "Webridge",
+                "url": "https://temp-staging.webridge.net/"
+            }
+        }
+    },
+    "popup": [
+        {
+          "tracking": {
+              "ctaUrl": "https://dev-t.webridge.net/click/?promotion_id=31&publisher_media_id=4&manuscript_id=187"
+          },
+          "content": {
+              "jsonUrl": "https://statics.webridge.net/thanksad/json/client/s57.json"
+          }
+        }
+    ],
+    "embed": []
 }

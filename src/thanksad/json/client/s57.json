@@ -1,0 +1,15 @@
+{
+    "contents": {
+        "promotion": {
+            "title": "Mock PROMOTION for S57",
+            "message": "【FI TV】で人気ドラマ、注目の新着ドラマが見放題。今なら入会から3ヶ月間のフリートライアル！",
+            "imagePath": "https://f.webridge.net/banner/5e3b267af34cbf43e582f7795609e41bf77085d6.png"
+        }
+    },
+    "links": {
+        "cta": {
+            "text": "今すぐ確認(toS31)"
+        },
+        "leaveText": "いいえ、結構です"
+    }
+}
